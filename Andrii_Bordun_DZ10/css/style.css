@@ -1,0 +1,206 @@
+/* Normalize styles */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+.images {
+  width: 50%;
+  padding: 16px 8px 16px 16px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.pic_scr {
+  width: 40px;
+  margin-right: 8px;
+}
+.pic_scr li {
+  margin-bottom: 8px;
+}
+.pic_scr li:hover {
+  box-shadow: 0px 0px 5px 5px orange;
+}
+
+.main_pic {
+  width: 648px;
+  position: relative;
+}
+.main_pic form {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.9294117647);
+}
+.main_pic form button {
+  background-image: url(https://m.media-amazon.com/images/G/01/share-icons/share-std.svg);
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.rating div, article, .images, .main_pic form {
+  display: flex;
+}
+
+/* Main content */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Albert Sans", sans-serif;
+}
+
+/* Right section */
+.right_container {
+  width: 34.7222222222%;
+  padding: 16px 8px;
+}
+.right_container h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.rating {
+  font-size: 16px;
+}
+.rating a {
+  text-decoration: none;
+}
+.rating a:hover {
+  text-decoration: underline;
+  color: red;
+}
+.rating div {
+  margin-bottom: 12px;
+}
+.rating div #stars {
+  width: 20px;
+}
+.rating div a {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.rating div a:first-of-type {
+  margin-left: 16px;
+}
+
+.banner {
+  background-color: black;
+  width: 112px;
+  padding: 8px;
+  margin-right: 8px;
+  display: inline;
+  font-size: 12px;
+  color: white;
+  border-bottom-right-radius: 46%;
+  border-right: solid black 10px;
+}
+.banner span {
+  color: orange;
+}
+
+.climate_pledge {
+  margin-top: 16px;
+  padding-bottom: 8px;
+  color: green;
+  border-bottom: 1px solid rgb(181, 181, 181);
+}
+.climate_pledge p {
+  margin-left: 4px;
+}
+
+/* Aside */
+aside {
+  width: 15.2777777778%;
+  padding: 16px 16px 16px 8px;
+}
+
+.deliver {
+  width: 196px;
+  border: 1px solid grey;
+  box-shadow: 0px 0px 4px -1px grey;
+  border-radius: 4%;
+  padding: 20px 16px;
+  margin-bottom: 48px;
+}
+.deliver p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.deliver p::before {
+  content: "";
+  height: 14px;
+  width: 12px;
+  background-image: url(https://m.media-amazon.com/images/S/sash/kIT-Lj9i1Bch8yi.png);
+  display: inline-block;
+  margin-right: 4px;
+}
+.deliver button {
+  width: 162px;
+  border: 1px solid grey;
+  box-shadow: 0px 0px 4px -1px grey;
+  border-radius: 4%;
+  margin-top: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.deliver button:hover {
+  background-color: white;
+}
+
+.to_sell p {
+  font-size: 12px;
+  text-align: center;
+}
+.to_sell form {
+  text-align: center;
+}
+.to_sell form button {
+  width: 108px;
+  border: 1px solid grey;
+  box-shadow: 0px 0px 4px -1px grey;
+  border-radius: 4%;
+  background-color: white;
+  font-size: 12px;
+  padding: 4px;
+  margin: 4px 0 16px;
+  cursor: pointer;
+}
+.to_sell form button:hover {
+  background-color: rgb(196, 196, 196);
+}
+.to_sell img {
+  border: 1px solid grey;
+}/*# sourceMappingURL=style.css.map */
