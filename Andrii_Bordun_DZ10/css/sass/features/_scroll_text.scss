@@ -1,0 +1,12 @@
+.scroll_text{
+    border-bottom: 1px solid rgb(181, 181, 181);
+    padding-bottom: 12px;
+    summary{
+        color: rgb(143, 81, 143);
+        font-size: $font_med;
+        cursor: pointer;
+    }
+    &.border-none{
+        border-bottom: none;
+    }
+}

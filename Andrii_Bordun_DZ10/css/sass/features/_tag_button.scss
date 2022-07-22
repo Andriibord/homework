@@ -1,0 +1,25 @@
+.tag_button{
+    border: 1px dashed grey;
+    background-color: transparent;
+    outline: none;
+    padding: 4px 8px;
+    margin-right: 4px;
+    color: #ccc;
+    cursor: pointer;
+    &:hover{
+        color: black;
+    }
+    &.e--active{
+        background-color: rgb(252, 237, 219);
+        border: 1px solid orange;
+        color: black;
+        font-weight: bold;
+    }
+    &.solid_bord{
+        border: 1px solid #ccc;
+        color: black;
+        &:hover{
+            background-color: rgb(243, 241, 241);
+        }
+    }
+}

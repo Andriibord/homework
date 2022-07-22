@@ -1,0 +1,56 @@
+.add_inform{
+    width: 220px / 1440px *100%;
+    padding: 16px 16px 16px 8px;
+}
+.deliver{
+    width: 196px;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 4px -1px grey;
+    border-radius: 4%;
+    padding: 20px 16px;
+    margin-bottom: 48px;
+    p{
+        font-size: $font_med;
+        margin-bottom: 8px;
+        &::before{
+            content: "";
+            height: 14px;
+            width: 12px;
+            background-image: url(https://m.media-amazon.com/images/S/sash/kIT-Lj9i1Bch8yi.png);
+            display: inline-block;
+            margin-right: 4px;
+        }
+    }
+    button{
+        @include buttonset(162px);
+        margin-top: 12px;
+        font-size: $font_med;
+        cursor: pointer;
+        &:hover{
+            background-color: white;
+        }
+    }
+} 
+.to_sell{
+    p{
+        font-size: $font_sm;
+        text-align: center;
+    }
+    form{
+        text-align: center;
+        button{
+            @include buttonset(108px);
+            background-color: white;
+            font-size: $font_sm;
+            padding: 4px;
+            margin: 4px 0 16px;
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(196, 196, 196);
+            }
+        }
+    }
+    img{
+        border: 1px solid grey;
+    }
+}

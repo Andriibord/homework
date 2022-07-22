@@ -1,0 +1,17 @@
+// Variables
+$font_lrg: 24px;
+$font_med: 16px;
+$font_sm: 12px;
+
+// Mixins
+@mixin buttonset($w){
+    width: $w;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 4px -1px grey;
+    border-radius: 4%;
+}
+
+// Extends
+%flex{
+    display: flex;
+}
