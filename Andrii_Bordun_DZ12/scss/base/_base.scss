@@ -1,0 +1,17 @@
+body{
+    min-width: 414px;
+    max-width: 1440px;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-family: 'Inter';
+    background-color: rgba(251, 250, 254, 1);
+}
+.container{
+    padding: 0 15px;
+    @media screen and (min-width: 768px){
+        padding: 0 60px;
+    }
+    @media screen and (min-width: 1140px){
+        padding: 0 165px; 
+    }
+}

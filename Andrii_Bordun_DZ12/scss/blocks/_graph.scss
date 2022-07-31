@@ -1,0 +1,60 @@
+.graph__pic{
+    img{
+        margin-bottom: 56px;
+        @media screen and (min-width: 768px){
+            width: 780px;
+            margin: 0px auto 100px;
+        }
+        @media screen and (min-width: 1140px){
+            width: 920px;
+            margin: 0px auto 100px;
+        }
+    }
+}
+
+.graph__social-title{
+    p{
+        width: 318px;
+        margin: 0px auto 20px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 11px;
+        color: $accent-colortxt;
+        @media screen and (min-width: 768px){
+            width: 397px;
+            margin: 0px auto 25px;
+            @include font-txt-btn(400)
+        }
+    }
+}
+
+.graph__social-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 318px;
+    margin: 0px auto 56px;
+    @media screen and (min-width: 768px){
+        width: 600px;
+        margin: 0px auto 56px;
+    }
+    @media screen and (min-width: 1140px){
+        width: 800px;
+        margin: 0px auto 100px;
+    }
+    @media screen and (min-width: 1439px){
+        width: 940px;
+    }
+    img{
+        width: 56px;
+        &:last-child{
+            display: none;
+        }
+        @media screen and (min-width: 768px){
+            width: 80px;
+            &:last-child{
+                display: block;
+            }
+        }
+    }
+}

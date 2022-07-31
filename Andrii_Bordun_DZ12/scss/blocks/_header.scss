@@ -1,0 +1,106 @@
+.header__inner{
+    min-height: 84px;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (min-width: 1140px){
+        min-height: 144px;
+        align-items: center;
+    }
+}
+
+.logo-text{
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 32px;
+    line-height: 1;
+    letter-spacing: -1px;
+    @media screen and (min-width: 768px){
+        font-size: 24px;
+    }
+    @media screen and (min-width: 1140px){
+        font-size: 24px;
+        margin-top: 0px;
+    }
+    & span{
+        color: rgba(121, 76, 255, 1);
+    }
+}
+
+.menu__btn{
+    width: 24px;
+    height: 20px;
+    margin-top: 32px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    &::after{
+        content: "";
+        width: 24px;
+        height: 2.67px;
+        border-radius: 1px;
+        background-color: #35414B;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        box-shadow: 0 8.5px 0 0 #35414B, 0 17px 0 0 #35414B;
+    }
+}
+.menu-link{
+    display: block;
+    font-size: 8px;
+    line-height: 8px;
+    margin-top: 6px;
+    text-decoration: none;
+    color: $accent-colortxt;
+}
+
+@media screen and (min-width: 1140px){
+    .menu__brg{
+        display: none;
+    }
+}
+
+.menu__items{
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 1140px){
+        display: none;
+    }
+}
+.menu__items-link{
+    a {
+        text-decoration: none;
+        margin-right: 40px;
+        color: $accent-colortitle;
+        &:last-of-type{
+            margin-right: 107px;
+        }
+        @media screen and (max-width: 1439px){
+            margin-right: 16px;
+            &:last-of-type{
+                margin-right: 48px;
+            }
+        }
+    }       
+}
+.menu__items-log{
+    display: flex;
+    align-items: center;
+    & a{
+        text-decoration: none;
+        margin-right: 16px;
+        color: $accent-colortitle;
+    }
+    & button{
+        width: 169px;
+        height: 48px;
+        background: rgba(236, 229, 255, 1);
+        border-radius: 4px;
+        padding: 16px 24px;
+        @include font-txt-btn(500);
+        color: $accent-color;
+        cursor: pointer;
+    }
+}
