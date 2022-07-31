@@ -1,0 +1,106 @@
+.container{
+    &.inner-bcl{
+        background-color: white;
+        padding-top: 56px;
+        padding-bottom: 56px;
+        @media screen and (min-width: 1140px){
+            padding: 100px 60px 20px;
+        }
+        @media screen and (min-width: 1440px){
+            padding: 100px 165px 20px;
+        }
+    }
+}
+
+.advantages h2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: $accent-colortitle;
+    width: 197px;
+    margin: 0px auto 40px;
+    @media screen and (min-width: 1140px){
+        width: 436px;
+        margin: 0px auto 56px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+.advantages__items-mob{
+    div{
+        width: 318px;
+        height: 138px;
+        margin: 0 auto 48px;
+        &:last-child{
+            @media screen and (min-width: 1140px){
+                margin-bottom: 0px;
+            }
+        }
+        &:nth-child(2){
+            @media screen and (min-width: 1140px){
+                width: 240px;
+            }
+        }
+        @media screen and (min-width: 1140px){
+            height: 162px;
+            margin: 0;
+        }
+        img{
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 16px;
+            @media screen and (min-width: 1140px){
+                width: 64px;
+                height: 64px;
+                margin: 0 0 24px;
+            }
+        }
+        h3{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 18px;
+            color: $accent-colortitle;
+            text-align: center;
+            margin-bottom: 8px;
+            @media screen and (min-width: 1140px){
+                text-align: left;
+            }
+        }
+        p{
+            @extend %font-txt;
+            text-align: center;
+            @media screen and (min-width: 1140px){
+                text-align: left;
+            }
+        }
+    }
+    @media screen and (min-width: 1140px){
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 80px;
+    }
+}
+
+.advantages__items-mob{
+    &.desc{
+        display: none;
+        @media screen and (min-width: 1140px){
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.register-btn{
+    &.e_color{
+        background-color: #ECE5FF;
+        border: 1px solid #ECE5FF;
+        color: $accent-color;
+        margin: 0 auto;
+        @media screen and (min-width: 1140px){
+            display: none;
+        }
+    }
+}

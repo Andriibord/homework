@@ -1,0 +1,120 @@
+.register__price{
+    width: 160px;
+    height: 21px;
+    background-color: rgba(242, 249, 235, 1);
+    border-radius: 100px;
+    margin: 44px auto 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h3 a{
+        color: $accent-colortitle;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 13px;
+    }
+    p{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    .register__price{
+        width: 286px;
+        height: 32px;
+        margin: 44px auto 24px;
+        p {
+            width: 108px;
+            height: 32px;
+            padding: 8px 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px;
+            background-color: rgba(129, 196, 59, 1);
+            color: rgba(255, 255, 255, 1);
+            @include font-txt-btn(500);
+        }
+        & h3 a{
+            margin-left: 8px;
+            @include font-txt-btn(400);
+        }
+    }
+}
+
+
+
+.register__title{
+    & h2{
+        width: 318px;
+        height: 120px;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 600;
+        color: $accent-colortitle;
+        text-align: center;
+        margin: 0px auto 16px;
+        @media screen and (min-width: 768px){
+            width: 420px;
+            height: 120px;
+            font-size: 44px;
+            margin: 0px auto 24px;
+        }
+        @media screen and (min-width: 1140px){
+            width: 760px;
+            height: 144px;
+            font-size: 64px;
+            line-height: 72px;
+            margin: 0px auto 24px;
+        }
+    }
+    & h3{
+        width: 318px;
+        height: 72px;
+        margin: 0px auto 16px;
+        @extend %font-txt;
+        @media screen and (min-width: 768px){
+            width: 420px;
+            height: 66px;
+            text-align: center;
+            margin: 0px auto 24px;
+        }
+        @media screen and (min-width: 1140px){
+            width: 505px;
+            height: 48px;
+            text-align: center;
+            margin: 0px auto 24px;
+        }
+    }
+}
+
+.register__input-form{
+    @media screen and (min-width: 1140px){
+        display: flex;
+        justify-content: center;
+    }
+    input{
+        width: 318px;
+        height: 52px;
+        margin: 0px auto 8px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 1);
+        display: block;
+        @include font-txt-btn(400);
+        border: 1px solid #E1E5EA;
+        border-radius: 4px;
+        &::placeholder{
+            color: rgba(151, 165, 181, 1);
+        }
+        @media screen and (min-width: 1140px){
+            width: 320px;
+            margin: 0px 0px 48px;
+        }
+    }
+    .register-btn{
+        @media screen and (min-width: 1140px){
+            width: 164px;
+            margin: 0px 0px 48px;
+        }
+    }
+}

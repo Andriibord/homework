@@ -1,0 +1,12 @@
+.register-btn{
+    width: 318px;
+    height: 52px;
+    margin: 0 auto 32px;
+    display: block;
+    background-color: $accent-color;
+    border: 1px solid $accent-color;
+    border-radius: 4px;
+    @include font-txt-btn(500);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}

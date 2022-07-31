@@ -1,0 +1,25 @@
+// Variables
+$accent-color: #794CFF;
+$accent-colortxt: #4E5A65;
+$accent-colortitle: #35414B;
+
+// Mixins
+@mixin font-txt-btn($fw){
+    font-size: 16px;
+    font-weight: $fw;
+    line-height: 16px;
+}
+
+// Extends
+%font-txt{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $accent-colortxt;
+}
+%font-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: $accent-colortitle;
+}

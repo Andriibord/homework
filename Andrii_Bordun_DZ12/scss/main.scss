@@ -1,0 +1,21 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,600);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:regular,600); 
+
+// Base
+@import "./base/normalize";
+@import "./base/base";
+@import "./base/vars";
+
+// Blocks
+@import "./blocks/header";
+@import "./blocks/register";
+@import "./blocks/graph";
+@import "./blocks/planlist";
+@import "./blocks/advantages";
+@import "./blocks/graphwork";
+@import "./blocks/feedback";
+@import "./blocks/footer";
+
+// Features
+@import "./features/register-btn";
