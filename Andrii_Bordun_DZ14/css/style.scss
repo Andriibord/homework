@@ -1,0 +1,453 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,700);
+
+// Normalize
+@import "normalize.scss";
+
+// Vars
+$color-title: #111827;
+$color-txt: #374151;
+
+// Base
+body{
+    min-width: 375px;
+    max-width: 1440px;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-family: 'Inter';
+}
+
+.container__pad{
+    padding: 0 20px;
+    @media screen and (min-width:768px){
+        padding: 0 40px;
+    }
+    @media screen and (min-width:1140px){
+        padding: 0 112px;
+    }
+}
+
+// Get Started
+.backgr__img{
+    background-image: url(../img/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+}
+
+.get_started{
+    margin-top: 56px;
+    margin-bottom: 110px;
+    @media screen and (min-width:768px){
+        margin-top: 100px;
+        margin-bottom: 96px;
+    }
+    @media screen and (min-width:1140px){
+        margin-top: 92px;
+        margin-bottom: 90px;
+    }
+    &_block{
+        padding-bottom: 80px;
+    }
+    &-title{
+        padding-top: 52px;
+        @media screen and (min-width:768px){
+            padding-top: 96px;
+            max-width: 688px;
+        }
+        @media screen and (min-width:1140px){
+            width: 648px;
+        }
+    }
+}
+
+.h1-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    padding-bottom: 16px;
+    color: $color-title;
+    @media screen and (min-width:768px){
+        font-size: 48px;
+        line-height: 60px;
+    }
+    @media screen and (min-width:1140px){
+        font-size: 60px;
+        line-height: 72px;  
+    }
+} 
+
+.btn_cos{
+    background-color: #7C3AED;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 24px;
+    &-txt{
+        color: #7C3AED;
+        font-weight: 600;
+        padding: 16px 24px;
+        margin-left: 20px;
+    }
+}
+
+.icon-width{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.marg_mob{
+    @media screen and (max-width:992px){
+        margin-top: 46px;
+    }
+}
+
+// Companies
+.companies{
+    gap: 64px;
+    padding: 24px 0;
+    @media screen and (min-width:768px){
+        gap: 64px;
+        column-gap: 180px;
+    }
+    @media screen and (min-width:1140px){
+        gap: 64px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+// Features
+.features{
+    padding-top: 64px;
+    padding-bottom: 48px;
+    @media screen and (min-width:768px){
+        padding-top: 96px;
+        padding-bottom: 80px;
+    }
+    @media screen and (min-width:1140px){
+        padding-top: 112px;
+        padding-bottom: 96px;
+    }
+    &-txt{
+        width: 335px;
+        @media screen and (min-width:768px) {
+            width: 688px;
+        }
+        @media screen and (min-width:1140px) {
+            width: 800px;
+        }
+    }
+}
+
+.h2-subtitle{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: $color-title;
+    @media screen and (min-width:992px){
+        font-size: 36px;
+        line-height: 45px;
+    }
+}
+
+.p-txt{
+    color: $color-txt;
+}
+
+.h3-subtitle{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: $color-title;
+    @media screen and (min-width:1140px) {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+.features-padding{
+    padding: 48px 15px 0;
+    @media screen and (min-width:768px) {
+        padding-top: 64px;
+    }
+}
+
+.features-width{
+    max-width: 335px;
+    @media screen and (min-width:768px){
+    max-width: 100%;
+    }
+}
+
+// Stories
+.backgr__aqua{
+    background-color: #D5FAFC;
+}
+
+.p{
+    &-45{
+        padding: 2rem !important;
+    }
+    &l-45{
+        padding-left: 2rem !important;
+    }
+    &r-45{
+        padding-right: 2rem !important;
+    }
+    &t-45{
+        padding-top: 2rem !important;
+    }
+    &b-45{
+        padding-bottom: 2rem !important;
+    }
+}
+
+.m{
+    &-45{
+        margin: 2rem !important;
+    }
+    &l-45{
+        margin-left: 2rem !important;
+    }
+    &r-45{
+        margin-right: 2rem !important;
+    }
+    &t-45{
+        margin-top: 2rem !important;
+    }
+    &b-45{
+        margin-bottom: 2rem !important;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .p{
+        &-lg-45{
+            padding: 2rem !important;
+        }
+        &l-lg-45{
+            padding-left: 2rem !important;
+        }
+        &r-lg-45{
+            padding-right: 2rem !important;
+        }
+        &t-lg-45{
+            padding-top: 2rem !important;
+        }
+        &b-lg-45{
+            padding-bottom: 2rem !important;
+        }
+    }
+    
+    .m{
+        &-lg-45{
+            margin: 2rem !important;
+        }
+        &l-lg-45{
+            margin-left: 2rem !important;
+        }
+        &r-lg-45{
+            margin-right: 2rem !important;
+        }
+        &t-lg-45{
+            margin-top: 2rem !important;
+        }
+        &b-lg-45{
+            margin-bottom: 2rem !important;
+        }
+    }
+}
+
+.pos_quote{
+    width: 96px;
+    height: 78px;
+    opacity: 80%;
+    left: -6px;
+    top: 50px;
+    @media screen and (min-width:768px){
+        width: 142px;
+        height: 116px;
+        left: -22px;
+        top: 56px;
+    }
+    @media screen and (min-width:1140px){
+        left: -108px;
+        top: 64px;
+    }
+}
+
+.ptop-120{
+    padding-top: 80px;
+    @media screen and (min-width:768px) {
+        padding-top: 120px;
+    }
+}
+
+.p-color{
+    margin-left: 32px;
+    color:  #111827;
+}
+
+.mt--lg{
+    @media screen and (min-width:992px) {
+        margin-top: 196px;
+    }
+}
+
+.ml-32{
+    margin-left: 32px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.mr-16{
+    margin-right: 16px;
+}
+
+.pt-20{
+    padding-top: 20px;
+    @media screen and (min-width:992px) {
+        padding-top: 40px;
+    }
+}
+
+.mb--bl{
+    margin-bottom: 48px;
+    @media screen and (min-width:768px){
+        margin-bottom: 80px;
+    }
+    @media screen and (min-width:1140px){
+        margin-bottom: 96px;
+    }
+}
+
+// Achievements
+.ptop-48{
+    padding-top: 48px;
+    @media screen and (min-width:768px) {
+        padding-top: 80px;
+    }
+} 
+
+.mb-lg-80{
+    @media screen and (min-width:768px) {
+        margin-bottom: 80px;
+    }
+}
+
+.mtop-48{
+    margin-top: 48px;
+    @media screen and (min-width:768px) {
+        margin-top: 0px;
+    }
+}
+
+.mbot-48{
+    margin-bottom: 48px;
+    @media screen and (min-width:768px) {
+        margin-bottom: 80px;
+    }
+}
+
+.gap-40{
+    row-gap: 40px;
+}
+
+.h4-subtitle{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: $color-title;
+}
+
+// Integrations
+.mp-48{
+    margin-top: 48px;
+    padding-bottom: 48px;
+    @media screen and (min-width:768px) {
+        margin-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+.logos_gap{
+    gap: 40px;
+    @media screen and (min-width:540px) {
+        column-gap: 75px;
+    }
+    @media screen and (min-width:1140px) {
+        gap: 64px;
+    }
+}
+
+.half-circle{
+    background-image: url(../img/vector.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    margin-top: 36px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    @media screen and (min-width:768px) {
+        margin-top: 0;
+    }
+    @media screen and (min-width:992px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.logos-size{
+    width: 40px;
+    height: 40px;
+    @media screen and (min-width:1140px){
+        width: 64px;
+        height: 64px;
+    }
+}
+
+// Install
+.backgr_install{
+    background-color: #1DB5BE;
+}
+
+.p--btn_install{
+    padding-bottom: 80px;
+    @media screen and (min-width:1140px){
+        padding-bottom: 118px;
+    }
+}
+
+.mtop--212{
+    @media screen and (min-width:768px){
+    margin-top: 212px;}
+}
+
+.mbot--176{
+    @media screen and (min-width:768px){
+        margin-bottom: 176px;}
+}
+
+// Footer
+.p--footer{
+    padding: 40px 0;
+    @media screen and (min-width:768px){
+        padding: 40px 0;
+    }
+}
+
+.mtop--32{
+    margin-top: 32px;
+}
+
+.p--rights{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D1D5DB;
+}
