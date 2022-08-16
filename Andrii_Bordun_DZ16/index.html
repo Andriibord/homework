@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <header class="header__bgr">
+        <div class="container">
+            <nav class="header__nav">
+                <a href="#"><img class="header__logo" src="./img/logo.svg" alt="Logo"></a>
+                <ul class="header__items">
+                    <li>
+                        <a href="">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="">Prices for services</a>
+                    </li>
+                    <li>
+                        <a href="">About us</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <div class="header__brg">
+                    <a href="#">
+                        <svg width="24" height="16" >
+                            <use xlink:href="./img/sprite-burg.svg#brg"></use>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div class="container-product">
+            <div class="product__bgr">
+                <div class="product__inner">
+                    <h1>Solid wood products</h1>
+                    <p>Oak, beech, ash from 1700 CZK per m3</p>
+                    <button class="btn">Order</button>
+                </div>
+                <div class="product__innerr">
+                    <div>
+                        <img src="./img/img2.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/img.png" alt="">
+                        <img src="./img/img3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div>
+            <div class="container__mater">
+                <h2 class="mt-mater">THE WOOD WE<br>WORK WITH</h2>
+                <div class="mater__inner">
+                    <div>
+                        <img src="img/mater1.png" alt="Materials">
+                        <h4>Oak</h4>
+                        <p>Durability</p>
+                        <p>Beautiful texture</p>
+                        <p>Water resistance</p>
+                        <p>Expensive</p>
+                    </div>
+                    <div>
+                        <img class="pt-40" src="img/mater2.png" alt="Materials">
+                        <h4>Buk</h4>
+                        <p>Durability</p>
+                        <p>Hard to handle</p>
+                    </div>
+                    <div>
+                        <img src="img/mater3.png" alt="Materials">
+                        <h4>Ash</h4>
+                        <p>Durability</p>
+                        <p>Hard to handle</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2 class="mt-work">Our work</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <picture>
+                        <img src="./img/kitchen.jpg" alt="">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide">
+                    <picture>
+                        <img src="./img/kitchen.jpg" alt="">
+                    </picture>
+                  </div>
+                  <div class="swiper-slide">
+                    <picture>
+                        <img src="./img/kitchen.jpg" alt="">
+                    </picture>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2 class="mt-advantages">Advantages<br>working with us</h2>
+            <div class="advantages__inner">
+                <div>
+                    <p>In-house carpentry production</p>
+                    <p>We only treat wood with environmentally friendly and safe products</p>
+                    <p>Prices from the manufacturer, no extra charges</p>
+                </div>
+                <div>
+                    <picture>
+                        <source media="(max-width: 992px)" srcset="./img/video_sm.png">
+                        <img src="./img/video.png" alt="photo">
+                    </picture>
+                </div>
+            </div>
+            <button class="btn e-size">Receive a consultation</button>
+        </div>
+    </section>
+    <section>
+        <div class="container-about">
+            <div class="about__bgr">
+                <div class="about__info">
+                    <h2>About us</h2>
+                    <p>
+                        BIO CWT  - We manufacture solid wood products according to individual drawings. We make chairs, armchairs, wardrobes, beds and much more in our own workshop, equipped with all the necessary industrial equipment.
+                    </p>
+                </div>
+                <div class="about__img">
+                    <img src="./img/about_1.png" alt="photo">
+                    <img src="./img/about_2.png" alt="photo">
+                    <img src="./img/about_3.png" alt="photo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2 class="mt-question">Any questions?</h2>
+            <div class="question__inner">
+                <div>
+                    <p>
+                        Write to us and we will be sure to answer all your questions and
+                        give you a comprehensive consultation.
+                    </p>
+                    <img src="./img/stump.png" alt="stump">
+                </div>
+                <form action="#" class="question__form">
+                    <input type="text" class="form-w form-txt" name="f-name" placeholder="Your name"/>
+                    <br/>
+                    <input type="tel" class="form-w form-txt" name="f-name" placeholder="Your telephone number"/>
+                    <br/>
+                    <input type="text" class="form-w m--40 form-txt" name="f-name" placeholder="Your question"/>
+                    <br/>
+                    <input type="submit" class="btn" value="Send"/>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer-pad">
+            <div class="footer__inner">
+                <img class="footer-logo" src="./img/logo.svg" alt="Logo"/>
+                <div class="footer__info">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="./img/footer-geosm.svg">
+                        <img src="./img/footer-geo.svg" alt=""/>
+                    </picture>
+                    <div>
+                        <a href="#">Na Plzeňce 1166/0</a>
+                    <br/>
+                    <a href="#">150 00</a>
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="./img/footer-phonesm.svg">
+                        <img src="./img/footer-phone.svg" alt=""/>
+                    </picture>
+                    <a href="#">+420 000 000 000</a>
+                </div>
+            </div>
+            <a class="footer-privacy" href="#">Privacy Policy</a>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    max-width: 1440px;
+    min-width: 375px;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-family: 'Inter';
+    background-image: url('../img/wood_bg.svg');
+    background-color: #222021;
+}
+
+.container{
+    padding: 0 102px;
+    @media screen and (max-width: 1140px){
+        padding: 0 60px; 
+    }
+    @media screen and (max-width: 768px){
+        padding: 0 24px;
+    }
+    &-about{
+        padding-right: 116px;
+        @media screen and (max-width: 992px){
+        padding-right: 30px;
+        }
+    }
+}

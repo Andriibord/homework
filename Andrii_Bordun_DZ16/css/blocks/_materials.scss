@@ -1,0 +1,129 @@
+.container__mater{
+    padding: 266px 0 260px 0;
+    @media screen and (max-width: 992px){
+        padding: 120px 0 90px 0;
+    }
+}
+.mt-mater{
+    padding: 0 102px;
+    margin-left: 140px;
+    margin-bottom: 124px;
+    @media screen and (max-width: 1140px){
+        padding: 0 60px; 
+    }
+    @media screen and (max-width: 992px){
+        margin-left: 0;
+        margin-bottom: 80px;
+    }
+    @media screen and (max-width: 768px){
+        padding: 0 24px;
+    }
+}
+
+h2{
+    @extend %font-title;
+    @media screen and (max-width: 1240px){
+        font-size: 74px;
+        line-height: 107.9%;
+    }
+    @media screen and (max-width: 1140px){
+        font-size: 60px;
+        line-height: 107.9%;
+    }
+    @media screen and (max-width: 992px){
+        font-size: 42px;
+    }
+    @media screen and (max-width: 768px){
+        width: 290px;
+        font-size: 30px;
+        line-height: 107.9%;
+    }
+}
+
+p{
+    @extend %font-txt;
+    @media screen and (max-width: 1140px){
+        font-size: 22px;
+        line-height: 32px;
+    }
+    @media screen and (max-width: 992px){
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
+.mater__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 102px;
+    @media screen and (max-width: 1140px){
+        padding: 0 60px; 
+    }
+    @media screen and (max-width: 768px){
+        padding: 0 24px;
+    }
+    @media screen and (max-width: 480px){
+        overflow: scroll;
+        padding: 0 0 0 24px;
+    }
+    div{
+        @media screen and (max-width: 480px){
+            width: 130px;
+            padding-left: 26px;
+            flex-shrink: 0;
+            
+        }
+    }    
+    img{
+        margin: 0 auto 40px;
+        @media screen and (max-width: 992px){
+            width: 90px;
+        }
+    }
+    h4{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        color: $accent-colortxt;
+        text-align: center;
+        margin-bottom: 38px;
+    }
+    p{
+        margin-bottom: 24px;
+        margin-left: 36px;
+        position: relative;
+        @media screen and (max-width: 992px){
+            margin-left: 16px;
+            margin-bottom: 8px;
+        }
+        &:last-child{
+            @media screen and (max-width: 992px){
+                padding-bottom: 12px;
+            }
+            &::before{
+                content: url("../img/Vector2.svg");
+                position: absolute;
+                left: -34px;
+                @media screen and (max-width: 992px){
+                    content: url("../img/Vector2m.svg");
+                    left: -16px;
+                }
+            }
+        }
+        &::before{
+            content: url("../img/Vector.svg");
+            position: absolute;
+            left: -34px;
+            @media screen and (max-width: 992px){
+                content: url("../img/Vector1m.svg");
+                left: -16px;
+            }
+        }
+    }
+}
+
+.pt-40{
+    @media screen and (max-width: 480px){
+        padding-top: 40px;
+    }
+}

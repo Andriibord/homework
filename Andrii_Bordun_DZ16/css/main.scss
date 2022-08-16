@@ -1,0 +1,27 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Inter:500,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@font-face {
+	font-family: 'Conv_KyivTypeSans-Medium-';
+	src: url('../fonts/KyivTypeSans-Medium-.eot');
+	src: local('☺'), url('../fonts/KyivTypeSans-Medium-.woff') format('woff'), url('fonts/KyivTypeSans-Medium-.ttf') format('truetype'), url('fonts/KyivTypeSans-Medium-.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+// Base
+@import "./base/normalize";
+@import "./base/base";
+@import "./base/vars";
+
+// Blocks
+@import "./blocks/header.scss";
+@import "./blocks/materials.scss";
+@import "./blocks/work.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/about.scss";
+@import "./blocks/question.scss";
+@import "./blocks/footer.scss";
+
+// Features
+@import "./features/btn.scss";

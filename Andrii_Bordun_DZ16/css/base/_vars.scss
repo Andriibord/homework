@@ -1,0 +1,28 @@
+// Variables
+$accent-color: #FFDBBB;
+$accent-colortxt: #F5F5F5;
+
+// Mixins
+// @mixin font-txt-btn($fw){
+//     font-size: 16px;
+//     font-weight: $fw;
+//     line-height: 16px;
+// }
+
+// Extends
+%font-txt{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: $accent-colortxt;
+}
+%font-title{
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;
+    color: $accent-colortxt;
+    font-family: 'Conv_KyivTypeSans-Medium-';
+    text-transform: uppercase;
+}

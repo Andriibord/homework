@@ -1,0 +1,33 @@
+.btn{
+    width: 225px;
+    height: 58px;
+    background: #728BAD;
+    border-radius: 42px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+    cursor: pointer;
+    @media screen and (max-width: 992px){
+        width: 126px;
+        height: 42px;
+        font-size: 20px;
+    }
+    @media screen and (max-width: 768px){
+        width: 86px;
+        height: 22px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    &.e-size{
+        width: 472px;
+        margin: 132px auto 300px;
+        display: block;
+        @media screen and (max-width: 992px){
+            width: 220px;
+            height: 34px;
+            font-size: 15px;
+            margin: 46px auto 92px;
+        }
+    }
+}
