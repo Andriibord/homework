@@ -1,0 +1,186 @@
+@import "./assets/normalize.scss";
+
+// Base
+body{
+    max-width: 1440px;
+    min-width: 375px;
+    margin: 0 auto;
+    padding: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    @media screen and (max-width: 768px){
+        font-size: 14px;
+    }
+}
+
+.container{
+    max-width: 968px;
+    margin: 0 auto;
+}
+
+// Calculation
+.calculation{
+    background-color: #353535;
+    padding: 16px 22px;
+    p{
+        font-size: 90px;
+        font-weight: 600;
+        text-align: right;
+        margin-bottom: 40px;
+        @media screen and (max-width: 768px){
+            font-size: 60px;
+        }
+    }
+    div{
+        display: flex;
+        gap: 36px;
+        cursor: pointer;
+        div{
+            &:hover{
+                color: #787575;
+            }
+        }
+    }
+}
+
+// Formulas
+.formulas{
+    background-color: #353535;
+    display: flex;
+    gap: 46px;
+    padding: 16px 22px;
+    cursor: pointer;
+    .p-dark{
+        color: #787575;
+        &:hover{
+            color: white;
+        }
+    }
+    p{
+        &:hover{
+            color: #787575;
+        }
+    }
+}
+
+// Dropdown
+.dropdown__inner{
+    display: flex;
+    gap: 26px;
+    padding: 10px;
+}
+
+.dropdown_tr{
+    position: relative;
+    cursor: pointer;
+    label{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        &::after{
+            content: "";
+            width: 8px;
+            height: 8px;
+            border-bottom: 1px solid black;
+            border-right: 1px solid black;
+            border-color: white;
+            transform: rotateZ(45deg);
+            transition: all 0.3s;
+        }
+    }
+    #dropdown_tr{
+        display: none;
+        &:checked{
+            & ~ .dropdown_tr-listr{
+                display: grid;
+                grid-template-columns: repeat(3,20px);
+                gap: 4px;
+                text-align: center;
+                background-color: #4f4f4f;
+            }
+            & ~ label::after{
+                transform: rotateZ(-135deg);
+            }
+        }
+    }
+    &-listr{
+        display: none;
+        position: absolute;
+        top: 20px;
+    }
+}
+
+.dropdown_f{
+    position: relative;
+    cursor: pointer;
+    label{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        &::after{
+            content: "";
+            width: 8px;
+            height: 8px;
+            border-bottom: 1px solid black;
+            border-right: 1px solid black;
+            border-color: white;
+            transform: rotateZ(45deg);
+            transition: all 0.3s;
+        }
+    }
+    #dropdown_f{
+        display: none;
+        &:checked{
+            & ~ .dropdown_f-listf{
+                display: grid;
+                grid-template-columns: repeat(3,20px);
+                gap: 4px;
+                text-align: center;
+                background-color: #4f4f4f;
+            }
+            & ~ label::after{
+                transform: rotateZ(-135deg);
+            }
+        }
+    }
+    &-listf{
+        display: none;
+        position: absolute;
+        top: 20px;
+    }
+}
+
+// Grid calculator
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    cursor: pointer;
+}
+
+.bg-grid{
+    background-color: #2a2929;
+}
+
+.grid__item{
+    background-color: rgb(25, 25, 25);
+    padding: 14px;
+    border: 1px solid #2a2929;
+    text-align: center;
+    font-size: 20px;
+    @media screen and (max-width: 768px){
+        padding: 8px;
+        font-size: 16px;
+    }
+    &.bg-black{
+        background-color: black;
+    }
+    &.bg-dark{
+        background-color: #4f4f4f;
+    }
+    &:hover{
+        filter: brightness(170%);
+        color: white;
+    }
+}
