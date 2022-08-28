@@ -1,0 +1,67 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Conv_ProximaNova-Regular';
+}
+.container{
+    min-width: 375px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 248px;
+    @media screen and (max-width: 1500px){
+        padding: 0 140px;
+    }
+    @media screen and (max-width: 1200px){
+        padding: 0 120px;
+    }
+    @media screen and (max-width: 990px){
+        padding: 0 60px;
+    }
+    @media screen and (max-width: 768px){
+        padding: 0 20px;
+    }
+}
+
+h1{
+    font-family: 'Conv_ProximaNova-Semibold';
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    @media screen and (max-width: 1200px){
+        font-size: 36px;
+        line-height: 36px;
+    }
+    @media screen and (max-width: 768px){
+        font-size: 26px;
+    }
+}
+
+h2{
+    font-family: 'Conv_ProximaNova-Bold';
+    font-size: 48px;
+    line-height: 48px;
+    color: #111010;
+    @media screen and (max-width: 1200px){
+        font-size: 38px;
+        line-height: 36px;
+    }
+    @media screen and (max-width: 768px){
+        font-size: 30px;
+    }
+}
+
+h3{
+    font-family: 'Conv_ProximaNova-Semibold';
+    font-size: 26px;
+    line-height: 26px;
+    color: #111010;
+}
+
+p{
+    font-size: 20px;
+    line-height: 28px;
+    color: #616161;
+    @media screen and (max-width: 1200px){
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

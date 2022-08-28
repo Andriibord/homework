@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./scss/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__logo">
+                <a href="#"><img src="./img/burger_menu.svg" alt="menu"></a>
+                <picture>
+                    <source media="(max-width: 992px)" srcset="./img/Logo_sm.svg">
+                    <img src="./img/Logo.svg" alt="LOGO">
+                </picture>
+                <a href="#"><img src="./img/shop_cartbg.svg" alt="shop cart"></a>
+            </div>
+            <nav class="header__inner">
+                <a class="header__search" href="#"><img src="./img/search.svg" alt="search"></a>
+                <ul class="header__pages">
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="../(Catalog)/index.html">Catalog</a>
+                    </li>
+                    <li>
+                        <a href="../(Product)/index.html">Product</a>
+                    </li>
+                    <li>
+                        <a href="">Cart</a>
+                    </li>
+                    <li>
+                        <a href="../(Check out)/index.html">Check Out</a>
+                    </li>
+                    <li>
+                        <a href="">Media</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <div class="header__items">
+                    <a href="#"><img src="./img/shop_cart.svg" alt="shop cart"></a>
+                    <a href="#"><img src="./img/like.svg" alt="like"></a>
+                    <a href="#"><img src="./img/person_acc.svg" alt="account"></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="nav__backgr">
+        <div class="container nav__cont">
+            <div class="nav">
+                <h2>Shopping Cart</h2>
+                <div>
+                    <img src="./img/nav_left-arrow.svg" alt="" width="30px">
+                    <a href="">Continue Shopping</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="cart">
+                <div class="cart__items">
+                    <div class="cart__items-grid">
+                        <div class="items-grid__info  just-start">
+                        </div>
+                        <div class="items-grid__info">
+                            <h3>Unit Price</h3>
+                        </div>
+                        <div class="items-grid__info bl__qty">
+                            <h3>QTY</h3>
+                        </div>
+                        <div class="items-grid__info">
+                            <h3>Total SAR</h3>
+                        </div>
+                        <div class="items-grid__info">
+                        </div>
+                    </div>
+                    <div class="cart__items-grid">
+                        <div class="items-grid__info  just-start">
+                            <img src="./img/cart__items-img.jpg" alt="">
+                            <div>
+                                <p>Product Name</p>
+                                <span>Lorem Ipsum</span>
+                            </div>
+                        </div>
+                        <div class="items-grid__info">
+                            <p>199.00</p>
+                        </div>
+                        <div class="items-grid__info bl__qty">
+                            <button class="cart__btn"><img src="./img/cart_minus.svg" alt=""></button>
+                            <p>1</p>
+                            <button class="cart__btn"><img src="./img/cart_plus.svg" alt=""></button>
+                        </div>
+                        <div class="items-grid__info">
+                            <p>199.00</p>
+                        </div>
+                        <div class="items-grid__info">
+                            <form action="" target="_blank">
+                                <button class="cart__btn btn__bin"><img src="./img/cart_bin.svg" alt=""></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="cart__items-grid">
+                        <div class="items-grid__info  just-start">
+                            <img src="./img/cart__items-img.jpg" alt="">
+                            <div>
+                                <p>Product Name</p>
+                                <span>Lorem Ipsum</span>
+                            </div>
+                        </div>
+                        <div class="items-grid__info">
+                            <p>199.00</p>
+                        </div>
+                        <div class="items-grid__info bl__qty">
+                            <button class="cart__btn"><img src="./img/cart_minus.svg" alt=""></button>
+                            <p>1</p>
+                            <button class="cart__btn"><img src="./img/cart_plus.svg" alt=""></button>
+                        </div>
+                        <div class="items-grid__info">
+                            <p>199.00</p>
+                        </div>
+                        <div class="items-grid__info">
+                            <form action="" target="_blank">
+                                <button class="cart__btn btn__bin"><img src="./img/cart_bin.svg" alt=""></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="cart__items-grid">
+                        <div class="items-grid__info  just-start">
+                            <img src="./img/cart__items-img.jpg" alt="">
+                            <div>
+                                <p>Product Name</p>
+                                <span>Lorem Ipsum</span>
+                            </div>
+                        </div>
+                        <div class="items-grid__info">
+                            <p>199.00</p>
+                        </div>
+                        <div class="items-grid__info bl__qty">
+                            <button class="cart__btn"><img src="./img/cart_minus.svg" alt=""></button>
+                            <p>1</p>
+                            <button class="cart__btn"><img src="./img/cart_plus.svg" alt=""></button>
+                        </div>
+                        <div class="items-grid__info">
+                            <p>199.00</p>
+                        </div>
+                        <div class="items-grid__info">
+                            <form action="" target="_blank">
+                                <button class="cart__btn btn__bin"><img src="./img/cart_bin.svg" alt=""></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart__checkout">
+                    <h3>Do you have a voucher?</h3><span>(Optional)</span><a href=""><img src="./img/arrow-up.svg" alt=""></a>
+                    <div class="checkout__btn-tw">
+                        <form action="" target="_blank">
+                            <button class="cart__checkout-btn">Enter the code</button>
+                        </form>
+                        <form action="" target="_blank">
+                            <button class="cart__checkout-btn checkout__btn-clr">Redeem</button>
+                        </form>
+                    </div>
+                    <div>
+                        <div class="d-flex">
+                            <p>Subtotal</p>
+                            <p>138,00 SAR</p>
+                        </div>
+                        <div class="d-flex p-34">
+                            <span>shipping</span>
+                            <span>5,91 SAR</span>
+                        </div>
+                    </div>
+                    <div class="d-flex g-112">
+                        <div>
+                            <p>Total</p>
+                            <span>(VAT included.)</span>
+                        </div>
+                        <p>143,91 SAR</p>
+                    </div>
+                    <form action="" target="_blank">
+                        <button class="cart__checkout-btn checkout__btn-clr checkout__btn-wdt">Safe to checkout</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="collections">
+                <h2>Recently Viewed Products</h2>
+                <div class="collections__items">
+                    <div>
+                        <img src="./img/tile1.jpg" alt="tile1">
+                        <div>
+                            <h3>Zurich Vision 60×60</h3>
+                            <p><span>449.99 SAR</span> 237.99 SAR</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/tile2.jpg" alt="tile2">
+                        <div>
+                            <h3>Zurich Pearl 60×60</h3>
+                            <p><span>449.99 SAR</span> 312.49 SAR</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/tile3.jpg" alt="tile3">
+                        <div>
+                            <h3>Zurich Grey 60×60</h3>
+                            <p><span>449.99 SAR</span> 312.49 SAR</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/tile4.jpg" alt="tile4">
+                        <div>
+                            <h3>Zurich Dark Grey 60×60</h3>
+                            <p><span>449.99 SAR</span> 312.49 SAR</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper swiper__collections">
+                        <div class="swiper-slide">
+                            <img src="./img/tile1.jpg" alt="tile1">
+                            <div>
+                                <h3>Zurich Vision 60×60</h3>
+                                <p><span>449.99 SAR</span> 237.99 SAR</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/tile2.jpg" alt="tile2">
+                            <div>
+                                <h3>Zurich Pearl 60×60</h3>
+                                <p><span>449.99 SAR</span> 312.49 SAR</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/tile3.jpg" alt="tile3">
+                            <div>
+                                <h3>Zurich Grey 60×60</h3>
+                                <p><span>449.99 SAR</span> 312.49 SAR</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/tile4.jpg" alt="tile4">
+                            <div>
+                                <h3>Zurich Dark Grey 60×60</h3>
+                                <p><span>449.99 SAR</span> 312.49 SAR</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer__backgr">
+        <div class="container">
+            <div class="footer__info">
+                <div>
+                    <picture>
+                        <source media="(max-width: 1200px)" srcset="./img/Logo_whitesm.svg">
+                        <img src="./img/Logo_white.svg" alt="LOGO">
+                    </picture>
+                </div>
+                <div class="footer__links">
+                    <a href="">Products</a>
+                    <ul>
+                        <li><a href="">Sand Stone</a></li>
+                        <li><a href="">Stone</a></li>
+                        <li><a href="">Cement</a></li>
+                        <li><a href="">Soft Stone</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <a href="">Services</a>
+                    <ul>
+                        <li><a href="">Measurement Service</a></li>
+                        <li><a href="">Product Advice</a></li>
+                        <li><a href="">Interior Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <a href="">Contact information</a>
+                    <ul>
+                        <li>3181 Al Imam Saud Ibn Abdul Aziz Branch Rd,</li>
+                        <li>An Nuzhah, Riyadh 12474,</li>
+                        <li>Saudi Arabia</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__info-mob">
+                <div>
+                    <a href="">Products</a>
+                    <a href=""><img src="./img/footer_arrow.svg" alt=""></a>
+                </div>
+                <div>
+                    <a href="">Services</a>
+                    <a href=""><img src="./img/footer_arrow.svg" alt=""></a>
+                </div>
+                <div>
+                    <a href="">Contact information</a>
+                    <a href=""><img src="./img/footer_arrow.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="footer__social">
+                <a href="https://uk-ua.facebook.com/" target="_blank">
+                    <svg width="11.5" height="22" >
+                        <use xlink:href="./img/sprite_social.svg#facebook"></use>
+                    </svg>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <svg width="25" height="20" >
+                        <use xlink:href="./img/sprite_social.svg#twitter"></use>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <svg width="22" height="22" >
+                        <use xlink:href="./img/sprite_social.svg#insta"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer__rights">
+                <p>Copyright © 2022 | All Rights Reserved.</p>
+                <p>Created with love by <span>thecreation.design</span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html> 

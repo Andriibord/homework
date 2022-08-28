@@ -1,0 +1,42 @@
+.collections{
+    padding-bottom: 86px;
+    h2{
+        margin-bottom: 46px;
+        text-align: center;
+    } 
+}
+
+.collections__items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    @media screen and (max-width: 1200px){
+        grid-template-columns: 333px 333px;
+        justify-content: center;
+    }
+    @media screen and (max-width: 768px){
+        display: none;
+    }
+    > div{
+        padding: 12px;
+        div{
+            padding: 24px;
+            box-shadow: 0px 0px 20px rgb(223, 223, 223);
+        }
+    }
+    h3{
+        text-align: center;
+        margin-bottom: 18px;
+        color: black;
+        @media screen and (max-width: 1500px){
+            font-size: 22px;
+        }
+    }
+    span{
+        font-size: 12px;
+        color: rgb(183, 183, 183);
+        text-decoration: line-through;
+    }
+    p{
+        text-align: center;
+    }
+}

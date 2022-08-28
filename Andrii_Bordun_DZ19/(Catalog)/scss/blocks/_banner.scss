@@ -1,0 +1,41 @@
+.banner{
+    padding-bottom: 86px;
+}
+
+.banner__back{
+    background-image: url("../img/banner_right.png");
+    background-size: contain;
+    background-position: right;
+    @media screen and (max-width: 1200px){
+        background-size: cover;
+    }
+    div{
+        width: 640px;
+        height: 232px;
+        padding: 32px;
+        background-color: white;
+        box-shadow: 0px 0px 21px 0px rgba(34, 60, 80, 0.2);
+        clip-path: polygon(100% -6%, 92% 50%, 5% 638%, -126% 0%);
+        @media screen and (max-width: 768px){
+            width: 450px;
+            padding: 16px;
+        }
+        @media screen and (max-width: 568px){
+            width: 340px;
+            padding: 12px;
+        }
+        p{
+            max-width: 520px;
+            @media screen and (max-width: 768px){
+                max-width: 368px;
+            }
+            @media screen and (max-width: 568px){
+                max-width: 260px;
+            }
+        }
+        h2{
+            font-family:  'Conv_ProximaNova-Semibold';
+            margin-bottom: 12px;
+        }
+    }
+}

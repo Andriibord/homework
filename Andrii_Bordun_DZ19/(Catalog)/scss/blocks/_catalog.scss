@@ -1,0 +1,44 @@
+.backgr{
+    background-image: url("../img/backgr_img-main.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 228px;
+    padding-bottom: 140px;
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,.42);
+        z-index: 2;
+      }
+    @media screen and (max-width: 990px){
+        padding-top: 128px;
+        padding-bottom: 80px;
+    }
+    @media screen and (max-width: 768px){
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+}
+
+.catalog__info{
+    max-width: 658px;
+    position: relative;
+    z-index: 3;
+    @media screen and (max-width: 1200px){
+        padding: 40px 50px;
+    }
+    h1{
+        margin-bottom: 30px;
+        @media screen and (max-width: 768px){
+            margin-bottom: 14px;
+        }
+    }
+    p{
+        color: #ECECEC;
+    }
+}

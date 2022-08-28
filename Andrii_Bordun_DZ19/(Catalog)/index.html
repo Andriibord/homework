@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog Page</title>
+    <link rel="stylesheet" href="./scss/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__logo">
+                <a href="#"><img src="./img/burger_menu.svg" alt="menu"></a>
+                <picture>
+                    <source media="(max-width: 992px)" srcset="./img/Logo_sm.svg">
+                    <img src="./img/Logo.svg" alt="LOGO">
+                </picture>
+                <a href="#"><img src="./img/shop_cartbg.svg" alt="shop cart"></a>
+            </div>
+            <nav class="header__inner">
+                <a class="header__search" href="#"><img src="./img/search.svg" alt="search"></a>
+                <ul class="header__pages">
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Catalog</a>
+                    </li>
+                    <li>
+                        <a href="../(Product)/index.html">Product</a>
+                    </li>
+                    <li>
+                        <a href="../(Cart)/index.html">Cart</a>
+                    </li>
+                    <li>
+                        <a href="../(Check out)/index.html">Check Out</a>
+                    </li>
+                    <li>
+                        <a href="">Media</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <div class="header__items">
+                    <a href="#"><img src="./img/shop_cart.svg" alt="shop cart"></a>
+                    <a href="#"><img src="./img/like.svg" alt="like"></a>
+                    <a href="#"><img src="./img/person_acc.svg" alt="account"></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="container backgr">
+            <div class="catalog__info">
+                <h1>Catalog</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="projects">
+                <div class="projects__info">
+                    <div class="projects__info-bl">
+                        <img src="img/projects1.jpg" alt="">
+                        <div>
+                            <span>Lorem Ipsum</span>
+                            <h3>Categories</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        </div>
+                    </div>
+                    <div class="projects__info-img">
+                        <img src="img/projects2.jpg" alt="">
+                        <div>
+                            <span>Lorem Ipsum</span>
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem Ipsum</p>
+                        </div>
+                    </div>
+                    <div class="projects__info-img">
+                        <img src="img/projects3.jpg" alt="">
+                        <div>
+                            <span>Lorem Ipsum</span>
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem Ipsum</p>
+                        </div>
+                    </div>
+                    <div class="projects__info-img">
+                        <img src="img/projects4.jpg" alt="">
+                        <div>
+                            <span>Lorem Ipsum</span>
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem Ipsum</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide projects__swiper">
+                            <div class="projects__info-img">
+                                <img src="img/projects2.jpg" alt="">
+                                <div>
+                                    <span>Lorem Ipsum</span>
+                                    <h3>Lorem Ipsum</h3>
+                                    <p>Lorem Ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide projects__swiper">
+                            <div class="projects__info-img">
+                                <img src="img/projects3.jpg" alt="">
+                                <div>
+                                    <span>Lorem Ipsum</span>
+                                    <h3>Lorem Ipsum</h3>
+                                    <p>Lorem Ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide projects__swiper">
+                            <div class="projects__info-img">
+                                <img src="img/projects4.jpg" alt="">
+                                <div>
+                                    <span>Lorem Ipsum</span>
+                                    <h3>Lorem Ipsum</h3>
+                                    <p>Lorem Ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide projects__swiper">
+                            <div class="projects__info-bl">
+                                <img src="img/projects1.jpg" alt="">
+                                <div>
+                                    <span>Lorem Ipsum</span>
+                                    <h3>Categories</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="collections">
+                <div class="collections__search">
+                    <p>Showing 1 - 15 of 22 results</p>
+                    <div class="collections__search-inner">
+                        <div class="collections__search-filter">
+                            <div>
+                                <a href="">Filter</a>
+                                <a href=""><img src="./img/collections_filter.svg" alt=""></a>
+                            </div>
+                            <div>
+                                <a href="">Sort by Price</a>
+                                <a href=""><img src="./img/collections_arrow.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="collections__search-view">
+                            <a href=""><img src="./img/search.svg" alt=""></a>
+                            <a href=""><img src="./img/collections1.svg" alt=""></a>
+                            <a href=""><img src="./img/collections2.svg" alt=""></a>
+                            <a href=""><img src="./img/collections3.svg" alt=""></a>
+                            <a href=""><img src="./img/collections4.svg" alt=""></a>
+                            <a href=""><img src="./img/collections5.svg" alt=""></a>
+                            <a href=""><img src="./img/collections6.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="collections__items">
+                    <div>
+                        <img src="./img/tile1.jpg" alt="tile1">
+                        <div>
+                            <h3>Zurich Vision 60×60</h3>
+                            <p><span>449.99 SAR</span> 237.99 SAR</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/tile2.jpg" alt="tile2">
+                        <div>
+                            <h3>Zurich Pearl 60×60</h3>
+                            <p><span>449.99 SAR</span> 312.49 SAR</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/tile3.jpg" alt="tile3">
+                        <div>
+                            <h3>Zurich Grey 60×60</h3>
+                            <p><span>449.99 SAR</span> 312.49 SAR</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/tile4.jpg" alt="tile4">
+                        <div>
+                            <h3>Zurich Dark Grey 60×60</h3>
+                            <p><span>449.99 SAR</span> 312.49 SAR</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/tile5.jpg" alt="tile5">
+                        <div>
+                            <h3>Windsor White Oak</h3>
+                            <p><span>449.99 SAR</span> 312.49 SAR</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/tile6.jpg" alt="tile6">
+                        <div>
+                            <h3>Sicily Grey Décor 30×60</h3>
+                            <p><span>449.99 SAR</span> 312.49 SAR</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/tile7.jpg" alt="tile7">
+                        <div>
+                            <h3>Sardinia White</h3>
+                            <p><span>449.99 SAR</span> 312.49 SAR</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./img/tile8.jpg" alt="tile8">
+                        <div>
+                            <h3>Sicily Grey 30×60</h3>
+                            <p><span>449.99 SAR</span> 312.49 SAR</p>
+                        </div>
+                    </div>
+                </div>
+                <form action="" target="_blank">
+                    <button class="learn_more-btn btn-black projects__btn-centr">MORE PRODUCTS</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container banner">
+            <div class="banner__back">
+                <div>
+                    <h2>Promotional Banner</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer__backgr">
+        <div class="container">
+            <div class="footer__info">
+                <div>
+                    <picture>
+                        <source media="(max-width: 1200px)" srcset="./img/Logo_whitesm.svg">
+                        <img src="./img/Logo_white.svg" alt="LOGO">
+                    </picture>
+                </div>
+                <div class="footer__links">
+                    <a href="">Products</a>
+                    <ul>
+                        <li><a href="">Sand Stone</a></li>
+                        <li><a href="">Stone</a></li>
+                        <li><a href="">Cement</a></li>
+                        <li><a href="">Soft Stone</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <a href="">Services</a>
+                    <ul>
+                        <li><a href="">Measurement Service</a></li>
+                        <li><a href="">Product Advice</a></li>
+                        <li><a href="">Interior Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <a href="">Contact information</a>
+                    <ul>
+                        <li>3181 Al Imam Saud Ibn Abdul Aziz Branch Rd,</li>
+                        <li>An Nuzhah, Riyadh 12474,</li>
+                        <li>Saudi Arabia</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__info-mob">
+                <div>
+                    <a href="">Products</a>
+                    <a href=""><img src="./img/footer_arrow.svg" alt=""></a>
+                </div>
+                <div>
+                    <a href="">Services</a>
+                    <a href=""><img src="./img/footer_arrow.svg" alt=""></a>
+                </div>
+                <div>
+                    <a href="">Contact information</a>
+                    <a href=""><img src="./img/footer_arrow.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="footer__social">
+                <a href="https://uk-ua.facebook.com/" target="_blank">
+                    <svg width="11.5" height="22" >
+                        <use xlink:href="./img/sprite_social.svg#facebook"></use>
+                    </svg>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <svg width="25" height="20" >
+                        <use xlink:href="./img/sprite_social.svg#twitter"></use>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <svg width="22" height="22" >
+                        <use xlink:href="./img/sprite_social.svg#insta"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer__rights">
+                <p>Copyright © 2022 | All Rights Reserved.</p>
+                <p>Created with love by <span>thecreation.design</span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html> 

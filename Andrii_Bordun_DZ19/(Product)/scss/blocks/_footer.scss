@@ -1,0 +1,114 @@
+.footer__backgr{
+    background-color: #111010;
+}
+
+.footer__info{
+    padding-top: 68px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 768px){
+        padding-top: 28px;
+        padding-bottom: 38px;
+        justify-content: center;
+    }
+}
+
+.footer__links{
+    font-size: 14px;
+    @media screen and (max-width: 768px){
+        display: none;
+    }
+    > a{
+        text-decoration: none;
+        color: #FFFFFF;
+        margin-bottom: 14px;
+        display: block;
+    }
+    ul li{
+        a{
+            color: #A4A4A4;
+            text-decoration: none;
+            &:hover{
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.footer__contact{
+    color: #FFFFFF;
+    font-size: 14px;
+    @media screen and (max-width: 990px){
+        max-width: 180px;
+    }
+    @media screen and (max-width: 768px){
+        display: none;
+    }
+    a{
+        text-decoration: none;
+        color: #FFFFFF;
+        margin-bottom: 14px;
+        display: block;
+    }
+}
+
+.footer__info-mob{
+    display: none;
+    @media screen and (max-width: 768px){
+        display: block;
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+        &:last-child{
+            margin-bottom: 0;
+            padding-bottom: 32px;
+            border-bottom: 1px solid #3b3b3b;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-family: 'Conv_ProximaNova-Semibold';
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+.footer__social{
+    padding-bottom: 42px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    @media screen and (max-width: 768px){
+        justify-content: center;
+        gap: 20px;
+        padding-top: 36px;
+        padding-bottom: 22px;
+    }
+}
+
+.footer__rights{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 26px;
+    @media screen and (max-width: 768px){
+        display: block;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    p{
+        color: #FFFFFF;
+        font-size: 10px;
+        line-height: 10px;
+        @media screen and (max-width: 768px){
+            color: #A4A4A4;
+        }
+        span{
+            font-family: 'Conv_ProximaNova-Bold';
+        }
+    }
+}

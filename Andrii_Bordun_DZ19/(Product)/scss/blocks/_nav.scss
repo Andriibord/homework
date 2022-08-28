@@ -1,0 +1,31 @@
+.nav__backgr{
+    background-color: black;
+}
+
+.nav__cont{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+    a{
+        font-size: 20px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        &:last-child{
+            a{
+                border-bottom: 2px solid white;
+            }
+        }
+    }
+    img{
+        height: 18px;
+    }
+}

@@ -1,0 +1,76 @@
+.showrooms{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    position: relative;
+    @media screen and (max-width: 768px){
+        padding-bottom: 0;
+        padding-top: 228px;
+    }
+    @media screen and (max-width: 568px){
+        padding: 0;
+        padding-top: 248px;
+    }
+}
+
+.showrooms__backgr{
+    background-image: url("../img/showrooms_img.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    max-width: 818px;
+    height: 648px;
+    @media screen and (max-width: 1200px){
+        max-width: 728px;
+    }
+    @media screen and (max-width: 990px){
+        height: 360px;
+    }
+    @media screen and (max-width: 768px){
+        position: relative;
+        height: 360px;
+        margin-left: 0;
+    }
+}
+
+.showrooms__info{
+    max-width: 692px;
+    padding: 120px 86px;
+    margin-left: auto;
+    background-color: #F7F7F7;
+    position: absolute;
+    right: 248px;
+    @media screen and (max-width: 1500px){
+        right: 140px;
+    }
+    @media screen and (max-width: 1200px){
+        right: 120px;
+    }
+    @media screen and (max-width: 990px){
+        right: 60px;
+        left: 60px;
+        max-width: 500px;
+        padding: 24px;
+    }
+    @media screen and (max-width: 768px){
+        position: absolute;
+        top: -180px;
+        right: 20px;
+        left: 20px;
+        margin-left: 0;
+        max-width: 500px;
+        padding: 24px;
+    }
+    h2{
+        margin-bottom: 30px;
+        @media screen and (max-width: 990px){
+            margin-bottom: 10px;
+        }
+    }
+    p{
+        margin-bottom: 58px;
+        @media screen and (max-width: 990px){
+            margin-bottom: 24px;
+        }
+    }
+}

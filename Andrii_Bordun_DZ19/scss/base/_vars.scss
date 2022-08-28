@@ -1,0 +1,24 @@
+// Variables
+$accent-colortxt: #616161;
+$accent-colortitle: #111010;
+
+// Mixins
+// @mixin font-txt-btn($fw){
+//     font-size: 16px;
+//     font-weight: $fw;
+//     line-height: 16px;
+// }
+
+// Extends
+%header-items{
+    font-family: 'Conv_ProximaNova-Bold';
+    font-size: 16px;
+    line-height: 19px;
+    color: $accent-colortitle;
+}
+// %font-title{
+//     font-weight: 600;
+//     font-size: 18px;
+//     line-height: 24px;
+//     color: $accent-colortitle;
+// }

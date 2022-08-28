@@ -1,0 +1,96 @@
+.swiper{
+    max-width: 380px;
+    height: 100%;
+    position: relative;
+    display: none;
+    @media screen and (max-width: 990px){
+        display: block;
+    }
+}
+
+.swiper-wrapper{
+    margin: auto 0;
+    max-width: 380px;
+    height: 100%;
+}
+
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    margin: auto 0;
+    &:nth-child(2){
+        img{
+            max-height: 450px;
+        }
+    }
+   
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next{
+    color: black;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    position: initial;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/arrow_r.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0px;
+    &::after{
+        content: "";
+    }
+}
+
+.swiper-button-prev{
+    transform: rotateZ(180deg);
+}
+
+.product__swiper{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    img{
+        max-width: 380px;
+    }
+    > div{
+        position: relative;
+    }
+}
+
+.projects__swiper{
+    display: flex;
+    flex-direction: column;
+    img{
+        margin-bottom: 22px;
+    }
+    h3{
+        text-align: center;
+        margin-bottom: 6px;
+    }
+    p{
+        text-align: center;
+    }
+}

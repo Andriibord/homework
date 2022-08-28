@@ -1,0 +1,24 @@
+.nav__backgr{
+    background: linear-gradient(180deg, #f7f7f7 0%, rgba(196, 196, 196, 0) 100%);
+}
+
+.nav__cont{
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.nav{
+    h2{
+        margin-bottom: 10px;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+    }
+}

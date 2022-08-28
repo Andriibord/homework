@@ -1,0 +1,41 @@
+.learn_more-btn{
+    width: 180px;
+    height: 52px;
+    font-family: 'Conv_ProximaNova-Semibold';
+    font-size: 16px;
+    line-height: 19px;
+    color: $accent-colortitle;
+    cursor: pointer;
+    &:hover{
+        background-color: #b6b6b6;
+    }
+    @media screen and (max-width: 768px){
+        height: 46px;
+    }
+}
+
+.btn-black{
+    color: white;
+    background-color: black;
+    &:hover{
+        background-color: #4a4a4a;
+    }
+}
+
+.btn-centr{
+    @media screen and (max-width: 1900px){
+        margin: 0 auto 40px;
+        display: block;
+    }
+    @media screen and (max-width: 990px){
+        display: none;
+    }
+}
+
+.projects__btn-centr{
+    margin: 50px auto 0px;
+    display: block;
+    @media screen and (max-width: 990px){
+        margin: 34px auto 0px;
+    }
+}
